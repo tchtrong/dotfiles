@@ -63,3 +63,5 @@ bindsym $mod+semicolon focus right
 bindsym $mod+Alt_R focus left
 bindsym $mod+Super_R focus down
 bindsym $mod+Print focus up
+
+exec_always --no-startup-id xrdb -load ~/.Xresources
