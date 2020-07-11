@@ -38,8 +38,8 @@
 *.color15: #fdf6e3
 
 !! URxvt Appearance
-urxvt.font: xft:DejaVu Sans Mono:pixelsize=13
-urxvt.boldFont: xft:DejaVu Sans Mono:pixelsize=13:weight=bold
+URxvt.font: xft:DejaVu Sans Mono:pixelsize=13:weight=bold
+URxvt.boldFont: xft:DejaVu Sans Mono:pixelsize=13:weight=bold
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
@@ -50,8 +50,15 @@ URxvt.saveline: 2048
 URxvt.scrollBar: false
 URxvt.scrollBar_right: false
 URxvt.urgentOnBell: true
-URxvt.depth: 24
 URxvt.iso14755: false
+
+!! URxvt true transparency
+URxvt.depth: 32
+URxvt.background: rgba:1400/1c00/2100/ba00
+
+!! URxvt fake transparency
+! Urxvt*transparent: true
+! Urxvt*shading: 30
 
 !! Common Keybinds for Navigations
 URxvt.keysym.Shift-Up: command:\033]720;1\007
